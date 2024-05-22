@@ -4,16 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XGreat</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('background-image.jpg[1].jpeg'); /* Caminho para a sua imagem de fundo */
+            background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita a repetição da imagem */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: #ffffff; /* Certifique-se de que o texto ainda seja visível */
+        }
+        header {
+            background-color: rgba(31, 31, 31, 0.8); /* Fundo semitransparente */
+            width: 100%;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #00ffff; /* Azul fluorescente */
+        }
+        main {
+            flex: 1;
+        }
+        .working-text {
+            font-size: 1.5em;
+            color: #bdc3c7; /* Cor original */
+            margin: 20px 0;
+            font-weight: bold; /* Negrito */
+            text-shadow: 1px 1px 2px #00ffff; /* Sombra para borda azul */
+        }
+        .effect-text {
+            font-family: 'Courier New', Courier, monospace; /* Fonte diferente */
+            font-size: 1.2em;
+            color: #ffffff; /* Cor branca */
+            margin: 20px 0;
+            font-weight: bold; /* Negrito */
+            text-shadow: 1px 1px 2px #00ffff; /* Sombra para borda azul */
+        }
+        footer {
+            background-color: rgba(31, 31, 31, 0.8); /* Fundo semitransparente */
+            width: 100%;
+            padding: 10px 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>XGreat</h1>
     </header>
     <main>
-        <section class="intro">
-            <p>Bem-vindo ao site da XGreat. Em breve, teremos mais informações sobre nossos serviços e soluções inovadoras em tecnologia.</p>
-        </section>
+        <p class="working-text">Estamos trabalhando para criar algo incrível para você. Por favor, volte em breve!</p>
+        <p class="effect-text">Nas entranhas da tecnologia quântica, onde os elétrons dançam em harmonia caótica, vislumbramos os limites da existência. Em um universo digital, o tecer dos códigos revela segredos antigos, enquanto o horizonte se estreita em direção ao abismo do desconhecido, onde os mistérios do fim dos tempos aguardam sua revelação.</p>
     </main>
     <footer>
         <p>&copy; 2024 XGreat. Todos os direitos reservados.</p>
