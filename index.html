@@ -8,17 +8,20 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #121212;
-            color: #ffffff;
+            background-image: url('background-image.jpg'); /* Caminho para a sua imagem de fundo */
+            background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita a repetição da imagem */
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             text-align: center;
+            color: #ffffff; /* Certifique-se de que o texto ainda seja visível */
         }
         header {
-            background-color: #1f1f1f;
+            background-color: rgba(31, 31, 31, 0.8); /* Fundo semitransparente */
             width: 100%;
             padding: 20px 0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -26,7 +29,7 @@
         header h1 {
             margin: 0;
             font-size: 2.5em;
-            color: #f1c40f;
+            color: #00ffff; /* Azul fluorescente */
         }
         main {
             flex: 1;
@@ -37,7 +40,7 @@
             margin: 20px 0;
         }
         footer {
-            background-color: #1f1f1f;
+            background-color: rgba(31, 31, 31, 0.8); /* Fundo semitransparente */
             width: 100%;
             padding: 10px 0;
             box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
